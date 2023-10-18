@@ -8,29 +8,43 @@
   <meta name="generator" content="Eleventy v1.2">
   <title>Animals</title>
   <link rel="shortcut icon" href="images/icons8-favicon-32.png" type="image/png">
-  <link rel="shortcut icon" href="images/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="https://unpkg.com/open-props" />
   <link rel="stylesheet" href="https://unpkg.com/open-props/normalize.min.css" />
   <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
+  <header class="Hero">
+    <h1 class="Hero__title">At the Zoo</h1>
+    <figure class="hero-figure">
+      <img class="hero-figure__img" width="900" height="1355" src="images/andrew-ly-iUA1cea8QiY-unsplash (1).jpg"
+        alt="A wolf">
+    </figure>
+  </header>
   <main>
-    <h1>At the Zoo</h1>
-    <header>By: William Makepeace Thackeray</header>
-
-    <img src="images/andrew-ly-iUA1cea8QiY-unsplash (1).jpg" alt="wolf">
-    <header>Image by: Andrew Ly</header>
-    <p>First I saw the white bear, then I saw the black; <br>
-      Then I saw the camel with a hump upon his back;<br>
-      Then I saw the grey wolf, with mutton in his maw;<br>
-      Then I saw the wombat waddle in the straw;<br>
-      Then I saw the elephant a-waving of his trunk;<br>
-      Then I saw the monkeys—mercy, how unpleasantly they smelt!</p>
-    <script src="js/index.js"></script>
+    <article class="poem">
+      <h2 class="poem__subtitle">
+        <span>A Poem by By: William Makepeace Thackeray;</span>
+      </h2>
+      <p>First I saw the white bear, then I saw the black; <br>
+        Then I saw the camel with a hump upon his back;<br>
+        Then I saw the grey wolf, with mutton in his maw;<br>
+        Then I saw the wombat waddle in the straw;<br>
+        Then I saw the elephant a-waving of his trunk;<br>
+        Then I saw the monkeys—mercy, how unpleasantly they smelt!</p>
+      <hr class="poem__rule">
+    </article>
+  </main>
+  <footer class="footer">
+    <p class="copyright">&copy;Niara Afriyie 2023
+    <p class="credits">Photo by
+      <a href="https://unsplash.com/photos/iUA1cea8QiY">Andrew Ly</a>
+      <br>
+      Favicon by
+      <a href="https://icons8.com/icons/set/favicon">Favicon</a>
+    </p>
+  </footer>
+  <script src="js/index.js"></script>
 </body>
-</main>
 
 </html>
-
-<footer>© Niara Afriyie 2023</footer>
